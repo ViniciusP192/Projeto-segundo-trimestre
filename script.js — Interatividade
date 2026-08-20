@@ -1,1 +1,7 @@
+function adicionarProjeto() {
+    const mensagem = document.getElementById("mensagem");
+
+    mensagem.innerHTML =
+        "🚀 Projeto preparado! Aqui você pode adicionar o nome, descrição e componentes do seu próximo robô.";
+}
 

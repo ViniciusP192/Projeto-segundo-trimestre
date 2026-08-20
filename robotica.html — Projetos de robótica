@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos de Robótica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🔬 Ciência em Foco</div>
+
+    <nav>
+        <a href="index.html">Visão</a>
+        <a href="trionda.html">Bola Trionda</a>
+        <a href="robotica.html" class="ativo">Robótica</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero hero-robo">
+        <div>
+            <span class="etiqueta">TECNOLOGIA • ROBÓTICA</span>
+
+            <h1>Projetos de Robótica</h1>
+
+            <p>
+                Um espaço para apresentar ideias, experiências e projetos
+                envolvendo programação, eletrônica e robótica.
+            </p>
+        </div>
+
+        <div class="robo">🤖</div>
+    </section>
+
+    <section class="projetos">
+
+        <article class="projeto">
+            <div class="icone">🚗</div>
+
+            <h2>Robô Seguidor de Linha</h2>
+
+            <p>
+                Projeto no qual sensores identificam uma linha no chão e
+                controlam os motores para que o robô consiga acompanhá-la.
+            </p>
+
+            <span class="tag">Sensores</span>
+            <span class="tag">Motores</span>
+            <span class="tag">Arduino</span>
+        </article>
+
+        <article class="projeto">
+            <div class="icone">🌡️</div>
+
+            <h2>Estação Meteorológica</h2>
+
+            <p>
+                Sistema capaz de utilizar sensores para medir informações
+                ambientais, como temperatura e umidade.
+            </p>
+
+            <span class="tag">Sensores</span>
+            <span class="tag">Programação</span>
+            <span class="tag">Eletrônica</span>
+        </article>
+
+        <article class="projeto">
+            <div class="icone">🦾</div>
+
+            <h2>Braço Robótico</h2>
+
+            <p>
+                Projeto de um braço mecânico controlado por motores,
+                permitindo estudar movimento, força e automação.
+            </p>
+
+            <span class="tag">Servo motores</span>
+            <span class="tag">Automação</span>
+            <span class="tag">Mecânica</span>
+        </article>
+
+        <article class="novo-projeto">
+            <h2>💡 Seu projeto</h2>
+
+            <p>
+                Utilize este espaço para adicionar uma nova ideia de
+                robótica ao site.
+            </p>
+
+            <button onclick="adicionarProjeto()">
+                Adicionar projeto
+            </button>
+
+            <div id="mensagem"></div>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Ciência em Foco • Projetos de Robótica</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
 
