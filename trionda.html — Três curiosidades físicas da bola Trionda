@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades da Bola Trionda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header>
+    <div class="logo">🔬 Ciência em Foco</div>
+
+    <nav>
+        <a href="index.html">Visão</a>
+        <a href="trionda.html" class="ativo">Bola Trionda</a>
+        <a href="robotica.html">Robótica</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero hero-verde">
+        <div>
+            <span class="etiqueta">FÍSICA • FUTEBOL • TECNOLOGIA</span>
+
+            <h1>Três curiosidades físicas da bola Trionda</h1>
+
+            <p>
+                Conheça algumas das tecnologias presentes na bola Trionda
+                e entenda como sua construção influencia seu comportamento
+                durante o jogo.
+            </p>
+        </div>
+
+        <div class="bola">⚽</div>
+    </section>
+
+    <section class="curiosidades">
+
+        <!-- CURIOSIDADE 1 -->
+
+        <article class="curiosidade">
+            <div class="numero">01</div>
+
+            <div>
+                <h2>Construção de 4 painéis termocolados</h2>
+
+                <p>
+                    A Trionda possui apenas quatro painéis termocolados,
+                    representando o menor número de painéis utilizado na
+                    história das bolas de uma Copa do Mundo.
+                </p>
+
+                <p>
+                    A união térmica entre os painéis elimina as costuras
+                    tradicionais e reduz imperfeições na superfície da bola.
+                    Isso contribui para um formato mais homogêneo e também
+                    reduz a absorção de água.
+                </p>
+
+                <div class="destaque">
+                    <strong>🔬 Física:</strong>
+                    uma superfície mais uniforme ajuda a tornar o
+                    comportamento da bola durante seu deslocamento pelo ar
+                    mais previsível.
+                </div>
+            </div>
+        </article>
+
+
+        <!-- CURIOSIDADE 2 -->
+
+        <article class="curiosidade">
+            <div class="numero">02</div>
+
+            <div>
+                <h2>Microtextura tridimensional em TPU</h2>
+
+                <p>
+                    A camada externa da Trionda é composta por TPU laminado
+                    com relevos e ranhuras tridimensionais em sua superfície.
+                </p>
+
+                <p>
+                    Essa textura foi desenvolvida para otimizar o fluxo de
+                    ar ao redor da bola durante o voo, contribuindo para
+                    uma maior estabilidade aerodinâmica.
+                </p>
+
+                <p>
+                    Além disso, a textura proporciona uma melhor aderência,
+                    facilitando o controle da bola quando ela é tocada ou
+                    dominada pelos jogadores.
+                </p>
+
+                <div class="destaque">
+                    <strong>💨 Aerodinâmica:</strong>
+                    as características da superfície podem alterar a forma
+                    como o ar interage com a bola durante seu movimento.
+                </div>
+
+                <div class="trajetoria">
+                    <span>⚽</span>
+
+                    <div class="linha"></div>
+
+                    <span>🎯</span>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- CURIOSIDADE 3 -->
+
+        <article class="curiosidade">
+            <div class="numero">03</div>
+
+            <div>
+                <h2>Sensor de movimento suspenso — Connected Ball</h2>
+
+                <p>
+                    No centro do núcleo da bola existe um sensor inercial
+                    alimentado por bateria. Ele fica suspenso dentro da
+                    câmara de ar de butil por um sistema desenvolvido para
+                    manter o sensor em posição.
+                </p>
+
+                <p>
+                    Esse sensor consegue registrar informações relacionadas
+                    ao movimento da bola e aos seus toques.
+                </p>
+
+                <p>
+                    Os dados são enviados em tempo real para os sistemas
+                    utilizados no futebol, contribuindo para análises e
+                    decisões relacionadas ao sistema de arbitragem por vídeo,
+                    o VAR.
+                </p>
+
+                <div class="formula">
+                    Movimento → Sensor → Dados → VAR
+                </div>
+
+                <div class="destaque">
+                    <strong>🤖 Tecnologia:</strong>
+                    a bola combina princípios de física, sensores,
+                    transmissão de dados e tecnologia esportiva.
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Ciência em Foco • Física, futebol e tecnologia</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
